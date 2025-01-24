@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.baseDiv {
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.instaLogo {
+  font-family: cursive;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.instaLogo img {
+  width: 180px;
+}
+
+.bigborderedDiv {
+  border: 1px solid lightgrey;
+  padding: 1.5rem;
+  width: 350px;
+}
+
+.inputsDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 1.5rem;
+}
+
+.inputsDiv input {
+  min-width: 300px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 3px;
+  background: rgb(250, 250, 250, 1);
+  padding: 9px;
+  cursor: auto;
+  outline-color: rgb(170, 170, 170);
+  outline-width: 0.5;
+}
+.inputsDiv input::placeholder {   
+  font-size: 0.8rem;
+}
+
+.inputsDiv button {
+  width: 300px;
+  background: rgba(0, 149, 246, 1);
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: bolder;
+  margin: 1rem;
+}
+
+.breakDiv {
+  position: relative;
+  /* border: 1px solid black; */
+  margin: 1rem;
+}
+
+hr{
+    background: rgb(4, 228, 60);
+}
+
+.breakDiv p {
+  position: absolute;
+  top: -10px;
+  left: calc(42%);
+  z-index: 1;
+  background: white;
+  padding: 0 1rem;  
+  font-size: 0.85rem;
+}
+.fbLoginDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.fbLoginDiv img {
+  width: 25px;
+}
+
+.fbLoginDiv a {
+  text-decoration: none;
+  color: rgba(0, 149, 246, 1);
+  font-weight: bold;
+  font-size: 0.85rem;
+  padding-bottom: 3px;
+}
+.forgotPassword{
+    font-size: 0.85rem;
+}
+
+.smallborderedDiv {
+  margin-top: 0.8rem;
+  border: 1px solid lightgrey;
+  padding: 1.3rem;
+  width: 350px;
+  font-size: 0.85rem;
+}
+
+.smallborderedDiv a {
+  text-decoration: none;
+  color: rgba(0, 149, 246, 1);
+  font-weight: bold;
+  font-size: 0.85rem;
+}
+
+.getAppDiv{
+    margin-top: 1rem;
+    font-size: 0.85rem;
+}
+
+.appDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+.appDiv img:nth-child(1) {
+  max-width: 150px;
+}
+.appDiv img:nth-child(2) {
+  max-width: 120px;
+}
+
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    padding:1rem;
+}
+.links a{
+margin: 8px;
+ text-decoration: none;
+ color: gray;
+ font-size: 12px;
+ font-stretch: condensed;
+}
+
+.link a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+.copyRightDiv{
+    margin: 1rem;
+display: flex;
+align-items: center;
+justify-content:center;
+font-size: 12px;
+color: grey;
+gap: 1rem;
+}
+
+.copyRightDiv select{
+    border: none;
+    color: gray;
+}
